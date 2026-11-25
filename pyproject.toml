@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "envspy"
+version = "0.1.0"
+description = "Run any command and see which environment variables it really reads. No regex guessing."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [{ name = "roma36637-alt", email = "roma36637-alt@users.noreply.github.com" }]
+keywords = ["env", "dotenv", "environment-variables", "tracing", "debugging", "cli", "devtools"]
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: JavaScript",
+    "Topic :: Software Development :: Debuggers",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[project.scripts]
+envspy = "envspy.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/roma36637-alt/envspy"
+Issues = "https://github.com/roma36637-alt/envspy/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["envspy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
