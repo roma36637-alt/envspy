@@ -1,8 +1,21 @@
 # envspy
 
+[![CI](https://github.com/roma36637-alt/envspy/actions/workflows/ci.yml/badge.svg)](https://github.com/roma36637-alt/envspy/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://github.com/roma36637-alt/envspy)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 **Run any command and see which environment variables it *really* reads.**
 
 Every other tool guesses env vars by grepping your source. `envspy` runs your program and watches.
+
+<!-- After you upload docs/demo.cast, uncomment and paste the recording URL:
+[![asciicast](https://asciinema.org/a/REPLACE_ME.svg)](https://asciinema.org/a/REPLACE_ME)
+-->
+
+> 30-second demo: `bash docs/demo.sh` (Linux/macOS/Git Bash) or
+> `powershell -File docs/demo.ps1` (Windows). Pre-recorded asciicast:
+> `docs/demo.cast`. Ready-to-post copy for Show HN / Reddit / X is in
+> [`docs/POSTS.md`](docs/POSTS.md).
 
 ```text
 $ envspy -- python examples/demo.py
