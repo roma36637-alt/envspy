@@ -1,0 +1,68 @@
+name: Bug report
+description: Something did not work as expected
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this.
+
+        Before filing, please run the failing command again and copy the **full**
+        terminal output — the report tells us a lot even when it looks wrong.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: command
+    attributes:
+      label: Exact command
+      description: Include the program under the `--` separator.
+      render: shell
+      placeholder: envspy -- python examples/demo.py
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Full output
+      description: Copy everything the command printed, including the report.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: envspy version
+      description: Output of `envspy --version`, or the git commit you are on.
+      placeholder: "0.1.0"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: OS and interpreter
+      placeholder: "Windows 11, Python 3.14.7, Node 24.22"
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Which hook does it affect?
+      options:
+        - Python
+        - Node.js
+        - Both / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else
+      description: Minimal reproduction, related variables, screenshots — optional.
+    validations:
+      required: false
