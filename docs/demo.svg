@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="707" height="428" viewBox="0 0 707 428" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<rect x="0.5" y="0.5" width="706" height="427" rx="10" fill="#0d1117" stroke="#30363d"/>
+<circle cx="22" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="58" cy="20" r="6" fill="#27c93f"/>
+<text x="354" y="24" fill="#8b949e" font-size="12" text-anchor="middle">envspy</text>
+<line x1="0" y1="40" x2="707" y2="40" stroke="#30363d"/>
+<text x="26.0" y="80" fill="#c9d1d9" font-size="14">$</text>
+<text x="42.8" y="80" fill="#c9d1d9" font-size="14">envspy</text>
+<text x="101.6" y="80" fill="#c9d1d9" font-size="14">--</text>
+<text x="126.8" y="80" fill="#c9d1d9" font-size="14">python</text>
+<text x="185.6" y="80" fill="#c9d1d9" font-size="14">examples/demo.py</text>
+<text x="26.0" y="101" fill="#c9d1d9" font-size="14">demo</text>
+<text x="68.0" y="101" fill="#c9d1d9" font-size="14">app</text>
+<text x="101.6" y="101" fill="#c9d1d9" font-size="14">started</text>
+<text x="26.0" y="143" fill="#c9d1d9" font-size="14" font-weight="700">envspy</text>
+<text x="93.2" y="143" fill="#c9d1d9" font-size="14">6</text>
+<text x="110.0" y="143" fill="#c9d1d9" font-size="14">environment</text>
+<text x="210.8" y="143" fill="#c9d1d9" font-size="14">variable(s)</text>
+<text x="311.6" y="143" fill="#c9d1d9" font-size="14">read</text>
+<text x="353.6" y="143" fill="#c9d1d9" font-size="14">by</text>
+<text x="378.8" y="143" fill="#c9d1d9" font-size="14">`python</text>
+<text x="446.0" y="143" fill="#c9d1d9" font-size="14">examples/demo.py`</text>
+<text x="42.8" y="185" fill="#e3b341" font-size="14">·</text>
+<text x="59.6" y="185" fill="#c9d1d9" font-size="14">DATABASE_URL</text>
+<text x="194.0" y="185" fill="#e3b341" font-size="14">unset</text>
+<text x="269.6" y="185" fill="#8b949e" font-size="14">examples/demo.py:3</text>
+<text x="42.8" y="206" fill="#e3b341" font-size="14">·</text>
+<text x="59.6" y="206" fill="#c9d1d9" font-size="14">SECRET_KEY</text>
+<text x="194.0" y="206" fill="#e3b341" font-size="14">unset</text>
+<text x="269.6" y="206" fill="#8b949e" font-size="14">examples/demo.py:6</text>
+<text x="42.8" y="227" fill="#e3b341" font-size="14">·</text>
+<text x="59.6" y="227" fill="#c9d1d9" font-size="14">STRIPE_API_KEY</text>
+<text x="194.0" y="227" fill="#e3b341" font-size="14">unset</text>
+<text x="269.6" y="227" fill="#8b949e" font-size="14">examples/demo.py:10</text>
+<text x="42.8" y="248" fill="#56d4dd" font-size="14">~</text>
+<text x="59.6" y="248" fill="#c9d1d9" font-size="14">DEBUG</text>
+<text x="194.0" y="248" fill="#56d4dd" font-size="14">default</text>
+<text x="269.6" y="248" fill="#8b949e" font-size="14">examples/demo.py:4</text>
+<text x="42.8" y="269" fill="#56d4dd" font-size="14">~</text>
+<text x="59.6" y="269" fill="#c9d1d9" font-size="14">PORT</text>
+<text x="194.0" y="269" fill="#56d4dd" font-size="14">default</text>
+<text x="269.6" y="269" fill="#8b949e" font-size="14">examples/demo.py:5</text>
+<text x="42.8" y="290" fill="#56d4dd" font-size="14">~</text>
+<text x="59.6" y="290" fill="#c9d1d9" font-size="14">TZ</text>
+<text x="194.0" y="290" fill="#56d4dd" font-size="14">default</text>
+<text x="269.6" y="290" fill="#8b949e" font-size="14">examples/demo.py:7</text>
+<text x="42.8" y="332" fill="#8b949e" font-size="14">3</text>
+<text x="59.6" y="332" fill="#8b949e" font-size="14">unset,</text>
+<text x="118.4" y="332" fill="#8b949e" font-size="14">3</text>
+<text x="135.2" y="332" fill="#8b949e" font-size="14">default.</text>
+<text x="210.8" y="332" fill="#8b949e" font-size="14">Values</text>
+<text x="269.6" y="332" fill="#8b949e" font-size="14">are</text>
+<text x="303.2" y="332" fill="#8b949e" font-size="14">never</text>
+<text x="353.6" y="332" fill="#8b949e" font-size="14">recorded.</text>
+<text x="26.0" y="374" fill="#8b949e" font-size="14">#</text>
+<text x="42.8" y="374" fill="#8b949e" font-size="14">a</text>
+<text x="59.6" y="374" fill="#8b949e" font-size="14">regex</text>
+<text x="110.0" y="374" fill="#8b949e" font-size="14">scanner</text>
+<text x="177.2" y="374" fill="#8b949e" font-size="14">will</text>
+<text x="219.2" y="374" fill="#8b949e" font-size="14">never</text>
+<text x="269.6" y="374" fill="#8b949e" font-size="14">find</text>
+<text x="311.6" y="374" fill="#8b949e" font-size="14">STRIPE_API_KEY:</text>
+<text x="446.0" y="374" fill="#8b949e" font-size="14">the</text>
+<text x="479.6" y="374" fill="#8b949e" font-size="14">name</text>
+<text x="521.6" y="374" fill="#8b949e" font-size="14">is</text>
+<text x="546.8" y="374" fill="#8b949e" font-size="14">built</text>
+<text x="597.2" y="374" fill="#8b949e" font-size="14">at</text>
+<text x="622.4" y="374" fill="#8b949e" font-size="14">runtime</text>
+</svg>

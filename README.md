@@ -17,20 +17,7 @@ Every other tool guesses env vars by grepping your source. `envspy` runs your pr
 > `docs/demo.cast`. Ready-to-post copy for Show HN / Reddit / X is in
 > [`docs/POSTS.md`](docs/POSTS.md).
 
-```text
-$ envspy -- python examples/demo.py
-
-envspy  6 environment variable(s) read by `python examples/demo.py`
-
-  · DATABASE_URL    unset    examples/demo.py:3
-  · SECRET_KEY      unset    examples/demo.py:6
-  · STRIPE_API_KEY  unset    examples/demo.py:10
-  ~ DEBUG           default  examples/demo.py:4
-  ~ PORT            default  examples/demo.py:5
-  ~ TZ              default  examples/demo.py:7
-
-  3 unset, 3 default. Values are never recorded.
-```
+<img src="docs/demo.svg" alt="envspy -- python examples/demo.py: 6 environment variables read, including STRIPE_API_KEY built at runtime" width="707">
 
 Note `STRIPE_API_KEY`: the code builds the name at runtime (`prefix + "_API_KEY"`). A regex scanner can't see it, `envspy` can.
 

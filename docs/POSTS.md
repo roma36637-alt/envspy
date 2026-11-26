@@ -13,6 +13,14 @@ Repo: https://github.com/roma36637-alt/envspy
 A recording beats any amount of prose. `docs/demo.cast` is a ready asciicast v2
 file (~30 s: Python, Node, then `--check` failing).
 
+`docs/demo.svg` is already rendered from that cast and embedded in the README,
+so the repo looks finished **before** you upload anything anywhere. Regenerate
+it after editing the cast with:
+
+```bash
+python docs/render_cast.py docs/demo.cast docs/demo.svg --max-lines=16
+```
+
 **Option A — upload the prepared file (fastest):**
 
 1. Go to https://asciinema.org and sign in (GitHub login works).
