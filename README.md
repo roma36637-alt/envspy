@@ -99,6 +99,14 @@ pip install -e . pytest
 pytest
 ```
 
+## More small tools
+
+- **[spillcheck](https://github.com/roma36637-alt/spillcheck)** — a receipt for what your command changed, including files Git ignores.
+- **[repo-rpg](https://github.com/roma36637-alt/repo-rpg)** — turn a GitHub profile into an RPG character card (SVG).
+- **[smeta-delta](https://github.com/roma36637-alt/smeta-delta)** — explain *why* an estimate total changed (volume / unit price / composition).
+
+All of them: no dependencies, MIT, tested on Linux, macOS and Windows.
+
 ## License
 
 MIT
